@@ -51,7 +51,6 @@ table {
 #logo {
         display: block;
         float: left;
-	margin-botton: inherit;
     }
                         /* Título Principal*/
 
@@ -174,7 +173,7 @@ table {
 
                         /*blocos*/
 .blocodireito {
-        background-image: url("imagens/eaglevsbear.jpg");
+        background-image: url("../imagens/eaglevsbear.jpg");
         background-repeat: no-repeat;
         background-position: center;
         border-radius: 10px;        
@@ -260,7 +259,6 @@ table {
     }
 .нераскрытымchurchill {
         border-radius: 15px;
-        background-color:;
         margin-top: 2%;
         margin-bottom: 2%;
         margin-right: auto;
@@ -287,7 +285,7 @@ table {
         width: 165px;
         height: 165px;
         background-color: transparent;
-        background-image: url("imagens/laikabadge.png");
+        background-image: url("../imagens/laikabadge.png");
         opacity: 0.57;
         transition: 0.4s;
         cursor: pointer;

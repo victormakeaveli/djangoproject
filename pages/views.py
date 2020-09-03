@@ -5,3 +5,7 @@ class HomePageView(TemplateView):
 
 class DediPageView(TemplateView):
     template_name = 'Dedicatoria.html'
+
+class RussPageView(TemplateView):
+    template_name = 'нераскрытым.html'
+    

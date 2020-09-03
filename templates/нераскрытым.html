@@ -4,20 +4,20 @@
 <html>
 	<head>
 		<title>нераскрытым</title>
-        <script src="okay.js"></script>
-        <link rel="stylesheet" type="text/css" href="main_code.css"/>
-        <link rel="icon" type="image/ico" href="imagens/blackstar.png"/>
+        <script src="{% static 'okay.js' %}"></script>
+        <link rel="stylesheet" type="text/css" href="{% static 'base.css' %}">
+        <link rel="icon" type="image/ico" href="{% static 'imagens/blackstar.png' %}">
         <audio id="audio">
-            <source preload="auto" src="som/sputnik1beep.mp3" type="audio/mpeg">
+            <source preload='True' src="{% static 'som/sputnik1beep.mp3' %}" type="audio/mpeg">
         </audio>
 	</head>
 
 	<body style="background-color: black">
-        <div class="нераскрытым"><img src="imagens/582px-State_Emblem_of_the_Soviet_Union.svg.png"/></div>
+        <div class="нераскрытым"><img src="{% static 'imagens/582px-State_Emblem_of_the_Soviet_Union.svg.png' %}"></div>
         <div class="нераскрытымbloco">
             <div class="нераскрытымchurchill">
                 <div class="clearfix">
-                    <img src="imagens/churchill.jpg"><br></br>
+                    <img src="{% static 'imagens/churchill.jpg' %}"><br></br>
                     A URRS foi descrita por Winston Churchill como "uma charada envolvida em mistério, dentro de um enigma"<BR></br>
                 </div>
             </div>

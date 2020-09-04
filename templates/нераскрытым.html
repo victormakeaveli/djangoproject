@@ -6,13 +6,12 @@
 {% load static %}
 
 <link rel="stylesheet" href="{% static '/css/base.css' %}" type="text/css">
-
-<audio id="audio">
-<source preload='True' src="{% static '/som/sputnik1beep.mp3' %}" type="audio/mpeg">
-</audio>
-
+<!-- sputniks beep when mouse pointer pass over the sputniks image-->
+<audio id="audio"><source preload='auto' volume="0.1" src="{% static '/som/sputnik1beep.mp3' %}" type="audio/mpeg"></audio>
+<!---->
 <html>
     <script src="{% static '/js/okay.js' %}"></script>
+
 	<head>
 		<title>нераскрытым</title>
         <link rel="icon" type="image/ico" href="{% static '/imagens/blackstar.png' %}">
@@ -21,14 +20,17 @@
 	<body style="background-color: black">
 
     <div class="нераскрытым"><img src="{% static 'imagens/582px-State_Emblem_of_the_Soviet_Union.svg.png' %}"></div>
-    <div class="нераскрытымbloco">
+    <div class="нераскрытымbloco"> <!-- #1 -->
 
-        <div class="нераскрытымchurchill">
-            <div class="clearfix">
+        <div class="нераскрытымchurchill"> <!-- #2 -->
+            <div class="clearfix"> <!-- #3 -->
+
                 <img src="{% static 'imagens/churchill.jpg' %}"><br></br>
-                A URRS foi descrita por Winston Churchill como "uma charada envolvida em mistério, dentro de um enigma"<BR></br>
-            </div>
-        </div>
+                A URRS foi descrita por Winston Churchill como "uma charada envolvida em mistério, dentro de um enigma"<br></br>
+
+            </div><!-- end#3 -->   
+        </div><!-- #2 -->
+
         <br></br>Os cidadãos da União Soviética acreditavam que o programa espacial soviético era capaz de suplantar qualquer desafio. Essa sua crença vinha, entre outras razões, do fato de que o programa era secreto. Sabendo menos, principalmente em relação às falhas, o futuro parecia sem limites. O programa espacial soviético não liberou nehuma informação a respeito dos seus projetos antes do bem sucedido Sputnik I. De fato, quando o projeto Sputnik foi aprovado, uma das primeiras ações do Politburo foi considerar o que deveria ser anunciado ao Mundo em relação a ele.
 
         <img src="{% static 'imagens/sputnik.jpg' %}" onmouseenter="playAudio()" onmouseout="stopAudio()">
@@ -39,7 +41,7 @@ O que permanecia dos noticiários era o orgulho da astronáutica soviética e pi
 
         <span id="enfase2">R-36 Míssel Balístico Intercontinental 1962</span><br></br>
         <p id="enfase1">O que precisa ser compreendido no entanto, é que a demanda por segredo em torno do programa espacial, foi muito influenciada por exigência dos militares soviéticos.</p>
-    </div> <!-- fim нераскрытымbloco -->
+    </div> <!-- end#1 -->
 
     <button onclick="location.href='/'" style="background-size: 165px auto" class="нераскрытымbutton"></button>
 

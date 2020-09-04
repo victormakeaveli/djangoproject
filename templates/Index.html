@@ -4,7 +4,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% load static %}
-<audio id="Hino URSS" loop="true" preload="auto" autoplay volume="0.5" src="{% static '/som/National anthem of the Soviet Union - 1944 version.mp3' %}" hidden="true"> </audio>
+
+<audio id="HinoURSS" loop="true" preload="auto" autoplay volume="0.5" src="{% static '/som/National anthem of the Soviet Union - 1944 version.mp3' %}" hidden="true"> </audio>
+
+<script>
+  var audio = document.getElementById("HinoURSS");
+  audio.volume = 0.5;
+</script>
 
 <link rel="stylesheet" type="text/css" href="{% static '/css/base.css' %}">
 

@@ -4,4 +4,4 @@
 
 # My personal Django Project
 #### Entirely made from scratch, I've managed to learn more about Django and its structure putting it to practice working on [this website](https://super-web.herokuapp.com). 
-##### It doesn't really use any of Django's unique super features, I just implemented my [HTML/CSS University Project](github.com/victormakeaveli/HTMLProject/), and let me tell you it wasn't easy! but I'm here to learn and thats what I'm doing.
+##### It doesn't really use any of Django's unique super features, I just implemented my [HTML/CSS University Project](github.com/victormakeaveli/HTMLProject/), and let me tell you it wasn't easy! But I'm here to learn and thats what I'm doing.
